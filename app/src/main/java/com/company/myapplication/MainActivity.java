@@ -115,6 +115,13 @@ public class MainActivity extends AppCompatActivity {
 
         handler.postDelayed(runnable, TIMER_OF_PN);
     }
+	
+	 @Override
+    protected void onResume() {
+        super.onResume();
+        isPause = true;
+        handler.removeCallbacks(runnable);
+    }
 
     @Override
     protected void onStart() {
