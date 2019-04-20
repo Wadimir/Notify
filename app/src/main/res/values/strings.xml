@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">Shchebetyn</string>
+    <string name="app_name">My Application</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title_program">Schchebetyn</string>
+    <string name="notification_text">Ви давно не тренувалися!</string>
 </resources>

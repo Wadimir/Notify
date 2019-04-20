@@ -1,4 +1,4 @@
-package com.example.shchebetyn;
+package com.company.myapplication;
 
 import org.junit.Test;
 
