@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_program">Study on</string>
+    <string name="notification_text" translatable="false">Sie haben lange nicht trainiert!</string>
+    <string name="app_name">Study on</string>
+    <string name="Eng">Englisch</string>
+    <string name="Math">Mathematik</string>
+    <string name="Ph">Physik</string>
+    <string name="create">Erstellen</string>
+    <string name="group">Gruppe</string>
+    <string name="update">Aktualisieren</string>
+    <string name="group_dialog">Gruppenname</string>
+    <string name="enter_words">Gib deine Worte ein</string>
+    <string name="word">Wort</string>
+    <string name="transcription">Transkription</string>
+    <string name="translate">Übersetzen</string>
+    <string name="enter_formula">Geben Sie Ihre Formeln ein</string>
+    <string name="Mform">Formel</string>
+    <string name="Mmeaning">Bedeutung</string>
+    <string name="Change">Veränderung</string>
+    <string name="Delete">Löschen</string>
+    <string name="answer_1">Antwort_1</string>
+    <string name="answer_2">Antwort_2</string>
+    <string name="answer_3">Antwort_3</string>
+    <string name="result_work">Dein Ergebnis:</string>
+    <string name="next">Nächster</string>
+    <string name="word_tr">Wort-Übersetzen</string>
+    <string name="tr_word">Übersetzen-Wort</string>
+
+    <string name="advise">Ratschläge</string>
+    <string name="TODO">TODO</string>
+    <string name="advise_1">Studiere das beste Material</string>
+    <string name="advise_1_1">Sie haben eine hohe Punktzahl</string>
+    <string name="topic_statistic">Statistiken</string>
+    <string name="result">Ergebnis</string>
+    <string name="data">Datum</string>
+    <string name="subjects">Themen</string>
+</resources>

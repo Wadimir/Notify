@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_id">actividad</string>
+    <string name="already_id">ya</string>
+    <string name="amount_id">cantidad</string>
+    <string name="annoy_id">molestar</string>
+    <string name="appear_id">aparecer</string>
+    <string name="atom_id">átomo</string>
+    <string name="author_id">autor</string>
+    <string name="biography_id">biografía</string>
+    <string name="blind_id">ciego</string>
+    <string name="brain_id">cerebro</string>
+    <string name="cancel_id">cancelar</string>
+    <string name="cartoon_id">dibujos animados</string>
+    <string name="catchy_id">pegadizo</string>
+    <string name="character_id">personaje</string>
+    <string name="cinema_id">cine</string>
+    <string name="circle_id">circulo</string>
+    <string name="circus_id">circo</string>
+    <string name="common_id">común</string>
+    <string name="complain_id">quejar</string>
+    <string name="composer_id">compositor</string>
+    <string name="concert_id">concierto</string>
+    <string name="congratulate_id">felicitar</string>
+    <string name="correct_id">correcto</string>
+    <string name="dictionary_id">diccionario</string>
+    <string name="dramatic_id">dramático</string>
+    <string name="dream_id">sueño</string>
+    <string name="drummer_id">batería</string>
+    <string name="enormous_id">enorme</string>
+    <string name="environment_id">ambiente</string>
+    <string name="event_id">evento</string>
+    <string name="excited_id">emocionado</string>
+    <string name="exotic_id">exótico</string>
+    <string name="expencive_id">expencio</string>
+    <string name="famous_id">famoso</string>
+
+</resources>

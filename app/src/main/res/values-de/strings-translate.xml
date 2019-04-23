@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="activity_id">Aktivität</string>
+        <string name="already_id">bereits</string>
+        <string name="amount_id">Menge</string>
+        <string name="annoy_id">Nerven</string>
+        <string name="appear_id">erscheinen</string>
+        <string name="atom_id">Atom</string>
+        <string name="author_id">Autor</string>
+        <string name="biography_id">Biografie</string>
+        <string name="blind_id">blind</string>
+        <string name="brain_id">Gehirn</string>
+        <string name="cancel_id">stornieren</string>
+        <string name="cartoon_id">Karikatur</string>
+        <string name="catchy_id">eingängig</string>
+        <string name="character_id">Charakter</string>
+        <string name="cinema_id">Kino</string>
+        <string name="circle_id">Kreis</string>
+        <string name="circus_id">Zirkus</string>
+        <string name="common_id">verbreitet</string>
+        <string name="complain_id">beschweren</string>
+        <string name="composer_id">Komponist</string>
+        <string name="concert_id">Konzert</string>
+        <string name="congratulate_id">gratulieren</string>
+        <string name="correct_id">richtig</string>
+        <string name="dictionary_id">Wörterbuch</string>
+        <string name="dramatic_id">dramatisch</string>
+        <string name="dream_id">Traum</string>
+        <string name="drummer_id">Schlagzeuger</string>
+        <string name="enormous_id">enorm</string>
+        <string name="environment_id">Umgebung</string>
+        <string name="event_id">Veranstaltung</string>
+        <string name="excited_id">aufgeregt</string>
+        <string name="exotic_id">exotisch</string>
+        <string name="expencive_id">teuer</string>
+        <string name="famous_id">berühmt</string>
+
+    </resources>

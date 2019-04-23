@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_program">Study on</string>
+    <string name="notification_text" translatable="false">Vous ne vous êtes pas entraîné depuis longtemps!</string>
+    <string name="app_name">Study on</string>
+    <string name="Eng">Anglais</string>
+    <string name="Math">Math</string>
+    <string name="Ph">Physique</string>
+    <string name="create">Créer</string>
+    <string name="group">Groupe</string>
+    <string name="update">Mettre à jour</string>
+    <string name="group_dialog">Nom de groupe</string>
+    <string name="enter_words">Entrez vos mots</string>
+    <string name="word">Mot</string>
+    <string name="transcription">Transcription</string>
+    <string name="translate">Traduire</string>
+    <string name="enter_formula">Entrez vos formules</string>
+    <string name="Mform">Formule</string>
+    <string name="Mmeaning">Sens</string>
+    <string name="Change">Changement</string>
+    <string name="Delete">Effacer</string>
+    <string name="answer_1">Réponse_1</string>
+    <string name="answer_2">Réponse_2</string>
+    <string name="answer_3">Réponse_3</string>
+    <string name="result_work">Ton résultat:</string>
+    <string name="next">Suivant</string>
+    <string name="word_tr">Mot-Traduire</string>
+    <string name="tr_word">Traduire-Mot</string>
+
+    <string name="advise">Conseils</string>
+    <string name="TODO">TODO</string>
+    <string name="advise_1">Étudier le meilleur matériel</string>
+    <string name="advise_1_1">Vous avez un score élevé</string>
+    <string name="topic_statistic">Statistiques</string>
+    <string name="result">Résultat</string>
+    <string name="data">Rendez-vous amoureux</string>
+    <string name="subjects">Sujets</string>
+</resources>

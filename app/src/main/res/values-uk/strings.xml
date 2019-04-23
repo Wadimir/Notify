@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_program">Study on</string>
+    <string name="notification_text" translatable="false">Ви давно не тренувалися!</string>
+    <string name="app_name">Study on</string>
+    <string name="Eng">Англійська мова</string>
+    <string name="Math">Математика</string>
+    <string name="Ph">Фізика</string>
+    <string name="create">Створити</string>
+    <string name="group">Група</string>
+    <string name="update">Оновити</string>
+    <string name="group_dialog">Назва групи</string>
+    <string name="enter_words">Введіть своє слово</string>
+    <string name="word">Слово</string>
+    <string name="transcription">Транскрипція</string>
+    <string name="translate">Переклад</string>
+    <string name="enter_formula">Введіть свою формулу</string>
+    <string name="Mform">Формула</string>
+    <string name="Mmeaning">Значення</string>
+    <string name="Change">Змінити</string>
+    <string name="Delete">Видалити</string>
+    <string name="answer_1">Відповідь_1</string>
+    <string name="answer_2">Відповідь_2</string>
+    <string name="answer_3">Відповідь_3</string>
+    <string name="result_work">Ваш результат:</string>
+    <string name="next">Наступне</string>
+    <string name="word_tr">Слово-Переклад</string>
+    <string name="tr_word">Переклад-слово</string>
+
+    <string name="advise">Поради</string>
+    <string name="TODO">TODO</string>
+    <string name="advise_1">Вивчіть краще матеріал</string>
+    <string name="advise_1_1">У вас високий результат</string>
+    <string name="topic_statistic">Статистика</string>
+    <string name="result">Результат</string>
+    <string name="data">Дата</string>
+    <string name="subjects">Предмети</string>
+</resources>

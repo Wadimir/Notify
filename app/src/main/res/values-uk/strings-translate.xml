@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="activity_id">діяльність </string>
+        <string name="already_id">уже</string>
+        <string name="amount_id">кількість</string>
+        <string name="annoy_id">дратувати</string>
+        <string name="appear_id">з\'являтись</string>
+        <string name="atom_id">атом</string>
+        <string name="author_id">автор</string>
+        <string name="biography_id">біографія</string>
+        <string name="blind_id">сліпий</string>
+        <string name="brain_id">мозок</string>
+        <string name="cancel_id">відмінити</string>
+        <string name="cartoon_id">мультик</string>
+        <string name="catchy_id">помітний</string>
+        <string name="character_id">характер</string>
+        <string name="cinema_id">кіно</string>
+        <string name="circle_id">круг</string>
+        <string name="circus_id">цирк</string>
+        <string name="common_id">звичайний</string>
+        <string name="complain_id">скаржитись</string>
+        <string name="composer_id">композитор</string>
+        <string name="concert_id">концер</string>
+        <string name="congratulate_id">поздравляти</string>
+        <string name="correct_id">виправляти</string>
+        <string name="dictionary_id">словник</string>
+        <string name="dramatic_id">драматичний</string>
+        <string name="dream_id">мрія</string>
+        <string name="drummer_id">барабанщик</string>
+        <string name="enormous_id">величезний</string>
+        <string name="environment_id">навколишнє средовище</string>
+        <string name="event_id">подія</string>
+        <string name="excited_id">схвильований</string>
+        <string name="exotic_id">екзотичний</string>
+        <string name="expencive_id">дорогий</string>
+        <string name="famous_id">відомий</string>
+
+
+    </resources>

@@ -16,16 +16,28 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TextView;
 
 import java.util.Timer;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView mTextMessage;
-    private final int TIMER_OF_PN = 10000;
+    private int TIMER_OF_PN;
     private final int TI_VIBRATE = 1000;
+
+    public MainActivity(int TIMER_OF_PN) {
+        this.TIMER_OF_PN = TIMER_OF_PN;
+    }
+
+    public int getTIMER_OF_PN() {
+        return TIMER_OF_PN;
+    }
+
+    public void setTIMER_OF_PN(int TIMER_OF_PN) {
+        this.TIMER_OF_PN = TIMER_OF_PN;
+    }
 
     private Timer mTimer = new Timer();
     private Boolean isPause = false;
@@ -36,11 +48,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mTextMessage = (TextView) findViewById(R.id.message);
         BottomNavigationView bottomnav = findViewById(R.id.navigation);
         bottomnav.setOnNavigationItemSelectedListener(navListener);
-
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new HomeFragment()).commit();
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        toolbar.setTitle("Study on");
 
         if (handler == null) {
             handler = new Handler(Looper.getMainLooper());
@@ -48,6 +60,10 @@ public class MainActivity extends AppCompatActivity {
         else {
             handler.removeCallbacks(runnable);
         }
+       // toolbar.setTitleTextColor(getResources().getColor(R.color.colorWhite));
+
+
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new HomeFragment()).commit();
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener navListener =
@@ -71,6 +87,34 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 }
             };
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menumain, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        int id = item.getItemId();
+        // Handle item selection
+        if (id == R.id.itemSettings) {
+
+            Intent intent = new Intent(MainActivity.this, MainSettingsActivity.class);
+            startActivity(intent);
+            return false;
+        }
+
+        if (id == R.id.itemInfo) {
+
+            Intent intent = new Intent(MainActivity.this, MainInfoActivity.class);
+            startActivity(intent);
+            return false;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
     private void addNotification() {
 
         Uri sound = Uri.parse("android.resource://" + getPackageName() + "/sounds");

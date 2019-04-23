@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_program">Study on</string>
+    <string name="notification_text" translatable="false">No has entrenado en mucho tiempo!</string>
+    <string name="app_name">Study on</string>
+    <string name="Eng">Inglés</string>
+    <string name="Math">Mates</string>
+    <string name="Ph">Medicamento</string>
+    <string name="create">Crear</string>
+    <string name="group">Grupo</string>
+    <string name="update">Actualizar</string>
+    <string name="group_dialog">Nombre del grupo</string>
+    <string name="enter_words">Escribe tus palabras</string>
+    <string name="word">Palabra</string>
+    <string name="transcription">Transcripción</string>
+    <string name="translate">Traducir</string>
+    <string name="enter_formula">Introduce tus fórmulas</string>
+    <string name="Mform">Fórmula</string>
+    <string name="Mmeaning">Sentido</string>
+    <string name="Change">Cambio</string>
+    <string name="Delete">Borrar</string>
+    <string name="answer_1">Respuesta_1</string>
+    <string name="answer_2">Respuesta_2</string>
+    <string name="answer_3">Respuesta_3</string>
+    <string name="result_work">Tu resultado:</string>
+    <string name="next">Siguiente</string>
+    <string name="word_tr">Palabra-Traducir</string>
+    <string name="tr_word">Traducir-Palabra</string>
+
+    <string name="advise">Consejos</string>
+    <string name="TODO">TODO</string>
+    <string name="advise_1">Estudia el mejor material</string>
+    <string name="advise_1_1">Tienes un alto puntaje</string>
+    <string name="topic_statistic">Estadística</string>
+    <string name="result">Resultado</string>
+    <string name="data">Fecha</string>
+    <string name="subjects">Asignaturas</string>
+</resources>
